@@ -1,0 +1,65 @@
+   
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #F1F2F4;
+      
+    }
+
+    .wrapper {
+      margin-left: auto;
+      margin-right: auto;
+      width: 960px;
+    }
+    
+    header {
+      background-image: url(".assets/image/wonderlust_header.jpg");
+      background-size: 100% 100%;
+      text-align: center;
+      background-repeat: no-repeat;
+      line-height: 600px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 400%;
+    }
+
+    header h1 {
+      opacity: 0.7;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    
+    main h2 {
+      background-color: #fff;
+      font-size: 200%;
+      background-color: #F1F2F4;
+    }
+    
+    /* set link colors  */
+    a:link {
+      color: #89A2A7;
+      text-decoration: none;
+    }
+    a:visited {
+      text-decoration: none;
+      color: #993300;
+    }
+    a:hover {
+      text-decoration: none;
+      color: #3B4F57;
+    }
+    a:active {
+      text-decoration: none;
+      color: #3E2811;
+    }
+    
+    footer {
+      background-color: #A2BBBF;
+      font-family: 'Raleway', sans-serif;
+      line-height: 200px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    footer a {
+      color: #89A2A7;
+      text-decoration: none;
+    }

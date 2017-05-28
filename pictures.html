@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wonderlust</title>
+  
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./Gallery/css/blueimp-gallery.min.css">
+    
+   
+</head>
+
+<body>
+  
+  <div class="wrapper">
+      
+    <header>
+      <h1>Wonderlust</h1>
+    </header>
+    
+    <main>
+      
+      <nav>
+          <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="blog.html">Stories</a></li>
+              <li><a href="video.html">Videos</a></li>
+              <li><a href="pictures.html">Pictures</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+      
+      
+      <h2>Travel For The Curious &AMP; Wonderous</h2>
+      
+      <p><strong>Wonderlust is a website dedicated to travel and travel ideas for 
+      people looking for unique adventures.</strong></p>
+      
+     <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+      <div class="slides"></div>
+        <h3 class="title"></h3>
+          <a class="prev">‹</a>
+          <a class="next">›</a>
+          <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+      </div>
+
+      <div id="links">
+        <a href="./assets/image/gallery1.jpg"></a>
+        <a href="./assets/image/gallery2.jpg"></a>
+        <a href="./assets/image/gallery3.jpg"></a>
+        <a href="./assets/image/gallery4.jpg"></a>
+        <a href="./assets/image/gallery5.jpg"></a>
+        <a href="./assets/image/gallery6.jpg"></a>
+        <a href="./assets/image/gallery7.jpg"></a>
+        <a href="./assets/image/gallery8.jpg"></a>
+      </div>
+
+      <h3>Submit Pictures</h3>
+
+     <form>
+      <div>
+        <input type="email" placeholder="Username">
+        <input type="password" placeholder="Password">
+      </div>
+        <button>Login</button>
+    </form>
+
+    <h3>Not a Member of Wonderlust? Register with Us.</h3>
+    <button><a href="login.html">Register</a></button>
+		  
+	   </main>
+      
+    </div>
+
+    <footer>
+
+      <p>
+       <i class="fa fa-facebook fa-5x" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+          <i class="fa fa-pinterest-p fa-5x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
+        </p>
+
+         <p>2017 &#9400; Wonderlust | Ozcan-Flanagan Designs |</p>
+    </footer>
+
+    <script src="./Gallery/js/blueimp-gallery.min.js"></script>
+
+    <script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
+
+</body>
+</html>
