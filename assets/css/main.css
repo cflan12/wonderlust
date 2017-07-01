@@ -18,7 +18,7 @@
       background-size: 100% 100%;
       text-align: center;
       background-repeat: no-repeat;
-      line-height: 600px;
+      line-height: 450px;
       font-family: 'Raleway', sans-serif;
       font-size: 400%;
     }
@@ -27,12 +27,19 @@
       opacity: 0.7;
       margin-right: auto;
       margin-left: auto;
+      padding-top: 40%;
     }
     
     main h2 {
       background-color: #fff;
       font-size: 200%;
       background-color: #F1F2F4;
+    }
+
+    .pageHeader {
+      text-align: center;
+      opacity: 0.7;
+      font-size: 600%;
     }
   
   /* columns */
